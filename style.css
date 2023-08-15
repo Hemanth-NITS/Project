@@ -1,0 +1,167 @@
+* {
+    font-family:Arial;
+    margin: 0;
+    border: border-box;
+
+}
+
+.navbar{
+    height: 60px;
+    /* We need full width of screen so we are avoiding a value for it  */
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+
+}
+.logo{
+    background-image: url("amazonlogo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size:  0.80rem;
+    margin-left: 15px;
+
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.search-input {
+    width: 100%; 
+}
+
+.search-icon{
+    width: 45px;
+    align-items: center;
+    background-color: #febd68;
+    color: #0f1111;
+
+}
+
+.making-small{
+    font-size: 0.5px;
+}
+
+.nav-second{
+    font-size: 0.85px ;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+} 
+
+/** panel**/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin: 15px;
+
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/**Hero section**/
+.hero-section{
+    background-image: url("source.7.jpg");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-msg{
+    background-color: white;
+    font-size: 0.85rem;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    width: 80%;
+}
+    
+
+.hero-msg a{
+    color: #007185;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width:24%;
+
+
+}
